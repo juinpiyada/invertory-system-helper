@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background-color: #e2e6ea;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.why-us {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.why-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.why-us button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.why-us button:hover {
+    background-color: #0056b3;
+}
+.about-us{
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+
+}
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.inventory-gallery {
+    padding: 20px;
+    background-color: white;
+}
+
+.inventory-gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-us {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-us a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

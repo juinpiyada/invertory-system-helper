@@ -1,0 +1,148 @@
+<html>
+<head>
+   
+    <title>Contact Us - Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Fixed Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        body {
+            margin: 0;
+            padding-top: 80px; /* Padding to avoid content being hidden behind fixed header */
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .contact-section {
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-section p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .contact-details {
+            margin-bottom: 40px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Inventory Logo" style="width:50px;">
+            <h1>Inventory Management System</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href="about.html" style="color: white;">About</a></li>
+                <li><a href="contact.html" style="color: white;">Contact</a></li>
+                <li><a href="services.html" style="color: white;">Services</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button onclick="location.href='signup.html'">Sign Up</button>
+            <button onclick="location.href='login.html'">Login</button>
+        </div>
+    </header>
+
+    <!-- Contact Us Content -->
+    <div class="content">
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to contact us. We are here to assist you!</p>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <p>Email: <a href="mailto:support@inventorysystem.com">support@inventorysystem.com</a></p>
+                <p>Phone: 123-456-7890</p>
+                <p>Address: 123 Inventory St, Business City, BC 12345</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Inventory Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

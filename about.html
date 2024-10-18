@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Fixed Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        body {
+            margin: 0;
+            padding-top: 80px; /* Padding to avoid content being hidden behind fixed header */
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .team-section {
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .team-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .team-section p {
+            margin-bottom: 40px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .team-member {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .team-member div {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .team-member p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Inventory Logo" style="width:50px;">
+            <h1>Inventory Management System</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href="about.html" style="color: white;">About</a></li>
+                <li><a href="contact.html" style="color: white;">Contact</a></li>
+                <li><a href="services.html" style="color: white;">Services</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button onclick="location.href='signup.html'">Sign Up</button>
+            <button onclick="location.href='login.html'">Login</button>
+        </div>
+    </header>
+
+    <!-- About Us Content -->
+    <div class="content">
+        <section class="team-section">
+            <h2>About Us</h2>
+            <p>We are a team of passionate professionals committed to providing the best inventory management solutions for your business. Our goal is to make inventory management simple, efficient, and accessible for everyone.</p>
+
+            <!-- Meet Our Team Section -->
+            <div class="team-member">
+                <div>
+                    <img src="team1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div>
+                    <img src="team2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Head of Development</p>
+                </div>
+                <div>
+                    <img src="team3.jpg" alt="Team Member 3">
+                    <h3>Mark Johnson</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <div>
+                    <img src="team4.jpg" alt="Team Member 4">
+                    <h3>Lisa Brown</h3>
+                    <p>Marketing Manager</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Inventory Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
